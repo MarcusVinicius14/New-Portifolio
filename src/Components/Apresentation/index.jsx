@@ -19,7 +19,13 @@ function Apresentation() {
         <C.Text>Me chamo Marcus,</C.Text>
         <C.Text>sou um</C.Text>
         <C.TextDev>Desenvolvedor Web!</C.TextDev>
-        <C.Button>
+        <C.Button
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-200}
+          duration={500}
+        >
           About me
           <C.ContainerAnimation>
             <Lottie animationData={downAnimationData} />

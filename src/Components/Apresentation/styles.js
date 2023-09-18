@@ -1,5 +1,6 @@
-import { styled } from 'styled-components'
+import { Link } from 'react-scroll'
 
+import { styled } from 'styled-components'
 export const Container = styled.div`
   display: flex;
   align-items: center;
@@ -51,7 +52,7 @@ export const TextDev = styled.span`
     }
   }
 `
-export const Button = styled.button`
+export const Button = styled(Link)`
   margin-top: 20px;
   cursor: pointer;
   border: none;

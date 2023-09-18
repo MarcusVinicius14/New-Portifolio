@@ -8,7 +8,6 @@ import { categories } from './categories'
 import * as C from './styles'
 function Header() {
   const { ref: myRef, inView: myElementIsVisible } = useInView()
-
   const [bottonActive, setBottonActive] = useState(1)
   return (
     <C.Container ref={myRef} isVisible={myElementIsVisible}>
