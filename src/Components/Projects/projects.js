@@ -9,7 +9,8 @@ export const ProjectsData = [
     ReactIcons para formular o Front-end utilizando componentes como Carrossel, cards, modal,
     juntamente com o Back-end criado através de Node.js e mongoDB. O DevMovie é um Midia
     Player com series e filmes, que pode ser adaptado para uma plataforma de aulas e cursos.`,
-    image: devMovie
+    image: devMovie,
+    link: 'https://dev-movie-marcus.netlify.app'
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export const ProjectsData = [
     oferecer a troca de tema entre claro e escuro provenientes de features como ThemeProvider,
     React-Loading, React-icons, UseEffect e UseState. As Imagens presentes na aplicação são
     fornecidas por uma API externa chamada Pexels.`,
-    image: instagram
+    image: instagram,
+    link: 'https://instagram-devclub-marcus.netlify.app'
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ export const ProjectsData = [
     de dados para o RH, pedidos para Lojas, cadastramento em redes sociais entre outras, tudo
     isso possível graça a integração com APIs externas. Sendo responsivas essas aplicações
     fornecem possibilidades tanto para usuários Desktop quanto Mobile.`,
-    image: landingpage
+    image: landingpage,
+    link: 'https://landing-page-halloween-marcus.netlify.app'
   }
 ]

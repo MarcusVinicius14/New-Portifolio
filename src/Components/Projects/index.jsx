@@ -20,6 +20,9 @@ function Projects() {
               <C.ContainerText>
                 <C.ProjectTitle>{projects.name}</C.ProjectTitle>
                 <C.Text>{projects.about}</C.Text>
+                <C.Link href={projects.link} target="_blank">
+                  Clique aqui para acessar
+                </C.Link>
               </C.ContainerText>
               <C.Image src={projects.image} />
             </C.ContainerProject>

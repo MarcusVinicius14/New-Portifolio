@@ -62,6 +62,21 @@ export const Text = styled.p`
   text-align: center;
   letter-spacing: 1px;
 `
+export const Link = styled.a`
+  cursor: pointer;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#1cffe1, #08f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation 1000s linear infinite;
+  @keyframes rainbow-animation {
+    to {
+      background-position: 4500vh;
+    }
+  }
+`
 export const Image = styled.img`
   height: 400px;
   border-radius: 25px;
